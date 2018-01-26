@@ -1,0 +1,148 @@
+
+.fa-caret-down {
+  color: red;
+}
+
+
+.fa-caret-up {
+  color: green;
+}
+
+body > div > div:nth-child(2) > div > table > thead {
+  border: 3px solid black;
+}
+
+#bs-example-navbar-collapse-1 > ul > li > a:hover {
+  color: rgb(249, 0, 85);
+}
+
+/* First two should be green ( or a colour that shows it's good ) */
+tr.contestant:nth-child(1),
+tr.contestant:nth-child(2) {
+  /* background-color: #9aeda7; */
+  border: 2px solid black;
+  background: #93D142
+}
+
+
+/* Next four should be orange ( or average colour ) */
+tr.contestant:nth-child(3),
+tr.contestant:nth-child(4),
+tr.contestant:nth-child(5),
+tr.contestant:nth-child(6) {
+  /* background-color: #f1f442; */
+  border: 2px solid black;
+  background: #CEB12D
+}
+
+
+/* last two should be red ( or a bad colour ) */
+tr.contestant:nth-last-child(1),
+tr.contestant:nth-last-child(2),
+tr.contestant:nth-last-child(3) {
+  /* background-color: #ff8484; */
+  background: #E85555;
+  border: 2px solid black;
+}
+
+body > nav > div > div.navbar-header > img {
+  float: left;
+}
+
+body > div > div:nth-child(2) > div > table {
+  border: 2px solid black;
+}
+
+/* body > div > div:nth-child(2) > div > table > thead {
+  background: rgb(249, 0, 85);
+} */
+
+body > div > div:nth-child(2) > div {
+  color: white;
+}
+
+body > div > div:nth-child(2) > div > table > thead > tr {
+  color: black;
+}
+
+body > div > div:nth-child(2) > div > table > tbody > tr:nth-child(1) > td:nth-child(1) {
+  background: white;
+  border-right: 2px solid black;
+}
+
+body > div > div:nth-child(2) > div > table > thead > tr > th:nth-child(1) {
+  background: white;
+  border-right: 2px solid black;
+}
+
+body > div > div:nth-child(2) > div > table > tbody > tr:nth-child(2) > td:nth-child(1) {
+  background: white;
+  border-right: 2px solid black;
+}
+
+body > div > div:nth-child(2) > div > table > tbody > tr:nth-child(3) > td:nth-child(1) {
+  background: white;
+  border-right: 2px solid black;
+}
+
+body > div > div:nth-child(2) > div > table > tbody > tr:nth-child(4) > td:nth-child(1) {
+  background: white;
+  border-right: 2px solid black;
+}
+
+body > div > div:nth-child(2) > div > table > tbody > tr:nth-child(5) > td:nth-child(1) {
+  background: white;
+  border-right: 2px solid black;
+}
+
+body > div > div:nth-child(2) > div > table > tbody > tr:nth-child(6) > td:nth-child(1) {
+  background: white;
+  border-right: 2px solid black;
+}
+
+body {
+  background: rgb(248, 248, 248);
+}
+
+body > div > div:nth-child(2) > div > table > thead > tr > th:nth-child(2) {
+  background: white;
+}
+
+body > div > div:nth-child(2) > div > table > thead > tr > th:nth-child(3) {
+  background: white;
+}
+
+body > div > div:nth-child(2) > div > table > thead > tr > th:nth-child(4) {
+  background: white;
+}
+
+body > div > div:nth-child(2) > div > table > thead > tr > th:nth-child(5) {
+  background: white;
+}
+
+body > nav > div {
+  background: black;
+}
+
+body > nav > div > div.navbar-header > img {
+  max-width: 135px;
+}
+
+#bs-example-navbar-collapse-1 > ul > li > a {
+  color: white;
+}
+
+body > div > div:nth-child(1) > div > a {
+  font-size: 30px;
+  color: black;
+  font-family: monospace;
+}
+
+body > div > div:nth-child(2) > div > table > tbody {
+  font-size: 17px;
+}
+
+body > div > div:nth-child(2) > div > table > thead {
+  font-family: monospace;
+  font-size: 20px;
+}
